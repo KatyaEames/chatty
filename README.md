@@ -1,7 +1,7 @@
 chatty
 ======
 
-A simple messaging/chat server and client
+<!-- A simple messaging/chat server and client
 
 ##Objectives
 You're going to use Node.js to build a basic, REST-based chat server. You'll also plug in the basic front end Angular aspects of the project to make a fully functioning application. Your first **full stack** application!
@@ -13,8 +13,8 @@ Since we aren't worried about persistently storing information in a chat server 
 * Write your callback to the createServer method, remembering that it will be passed both a request and response parameter
 * Examine the request parameter to see which REST verb was used (check the `method` property of the request param).
 * If the method is GET, end the response with the messages array (JSON stringified) in the response. 
-  * Dont forget to set the appropriate headers for `Content-type`
-* To test your server, run it (`node server.js`) and use cURL or Postman to make a GET request to your server. Try putting in some pre-filled messages into your array to make sure it's returning data the way you expect.
+  * Dont forget to set the appropriate headers for `Content-type` -->
+* To test your server, run it (`node server.js`) and use CURL or Postman to make a GET request to your server. Try putting in some pre-filled messages into your array to make sure it's returning data the way you expect.
 
 ###Step 2: Create the POST part of your server
 You're going to need to do a little bit of work to get the request data. It's easy to think that we could grab the data from a property like request.body or something, but what if we were uploading entire files to this endpoint? The file would need to be sent in pieces or chunks, and so servers have to be built to get data in stages. 
